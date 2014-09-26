@@ -8,17 +8,24 @@
         "layout",
         "syntax-highlighting"
 ;
+$black : #2c2a2a;
+$blue : #5476d3;
+/*--------------------------------------------------*/
+body{
+    font-size: 16px;
+    padding-top: 70px;
+}
+.navbar{
+    min-height: 0;
+    font-size: large;
+}
+a{
+    color: $blue;
+    font-weight: 600;
+}
 
-
-
-
-
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-
-
+.sidebar-panel{
+    width: auto;
+    height: auto;
+    margin-left: 60px;
+}
