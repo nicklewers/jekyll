@@ -1,20 +1,23 @@
+---
+page_url: /pages/
+---
 <!DOCTYPE html>
 <html>
 
   {% include head.html %}
 
   <body>
-    {% include sidebar.html %}
     {% include header.html %}
 
-        <div class="page-content">
-          <div class="wrapper">
+        <div class="col-md-8">
             {{ content }}
-          </div>
+        </div>
+        <div class="col-md-4">
+            {% include sidebar.html %}
         </div>
 
+
     {% include footer.html %}
-    </div>
   </body>
 
 </html>

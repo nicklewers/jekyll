@@ -1,0 +1,1 @@
+{{ page.page_url }}{{ page.title }}.html  - command for linking pages

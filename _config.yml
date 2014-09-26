@@ -15,3 +15,4 @@ markdown: kramdown
 highlighter: rouge
 sass:
     sass_dir: _sass
+# Assets etc.
